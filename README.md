@@ -58,11 +58,3 @@ merge.tool=meld
 init.templatedir=~/.git_template
 
 core.repositoryformatversion=0
-
-core.filemode=true
-core.bare=false
-core.logallrefupdates=true
-remote.origin.url=git@git-sec.ercom.fr:cryptosmart/cryptosmart.git
-remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
-branch.5.1_SP0/main.remote=origin
-branch.5.1_SP0/main.merge=refs/heads/5.1_SP0/main
