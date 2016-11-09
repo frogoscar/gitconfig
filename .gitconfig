@@ -1,6 +1,6 @@
 [user]
 	name = Enming Xie
-	email = xxx
+	email = enming.xie-serv@ercom.fr
 [color]
 	ui = auto
 [alias]
@@ -25,11 +25,18 @@
 	cl = clean -fdx
 	fe = fetch --prune
 	cc = checkout 5.1_SP0/main
+	cf = clean -fdx
+	bd = branch -D
+	cb = checkout -b
+        ap = add -p
+        ri = rebase -i
+        rc = rebase --continue
+        ra = rebase --abort
 [push]
 	default = simple
 [core]
 	editor = vim
-	pager = 
+	pager = less -+F
 [diff]
 	tool = meld
 [difftool]
