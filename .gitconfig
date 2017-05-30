@@ -17,26 +17,30 @@
 	last = log -1
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	up = push origin
+	uf = push origin -f
 	lf = log --follow -p
 	aa = ls-files --modified
 	su = status -uno
 	cm = commit -m
-	uf = push origin -f
 	cl = clean -fdx
 	fe = fetch --prune
-	cc = checkout 5.1_SP0/main
+	cc = cherry-pick --continue
 	cf = clean -fdx
 	bd = branch -D
 	cb = checkout -b
-        ap = add -p
-        ri = rebase -i
-        rc = rebase --continue
-        ra = rebase --abort
+    ap = add -p
+    ri = rebase -i
+    rc = rebase --continue
+    ra = rebase --abort
+    sp = stash pop
+    ch = checkout 5.1_SP2/main
+    rh = rebase 5.1_SP2/main
 [push]
 	default = simple
 [core]
 	editor = vim
 	pager = less -+F
+	longpaths = true
 [diff]
 	tool = meld
 [difftool]
