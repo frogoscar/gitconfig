@@ -1,6 +1,6 @@
 [user]
-	name = Enming Xie
-	email = enming.xie-serv@ercom.fr
+	name = Enming XIE
+	email = enming.xie@external.softbankrobotics.com
 [color]
 	ui = auto
 [alias]
@@ -33,8 +33,8 @@
     rc = rebase --continue
     ra = rebase --abort
     sp = stash pop
-    ch = checkout 5.1_SP2/main
-    rh = rebase 5.1_SP2/main
+    ch = checkout
+    rh = rebase
 [push]
 	default = simple
 [core]
@@ -47,5 +47,3 @@
 	prompt = false
 [merge]
 	tool = meld
-[init]
-	templatedir = ~/.git_template
