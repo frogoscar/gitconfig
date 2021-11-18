@@ -16,7 +16,7 @@
 	l = log --stat
 	last = log -1
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	up = push origin
+	up = push --set-upstream origin
 	uf = push origin -f
 	lf = log --follow -p
 	aa = ls-files --modified
