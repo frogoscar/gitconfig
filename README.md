@@ -49,11 +49,3 @@ My Git Configuration
 [merge]
 	tool = meld
 ```
-
-difftool.prompt=false
-
-merge.tool=meld
-
-init.templatedir=~/.git_template
-
-core.repositoryformatversion=0
